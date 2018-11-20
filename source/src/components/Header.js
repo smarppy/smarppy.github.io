@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 
+import { Link } from 'react-scroll';
+
 export default class Header extends PureComponent {
 
     state = {}
@@ -12,7 +14,13 @@ export default class Header extends PureComponent {
                     <h3 className="mb-5">
                         <em>A Free Bootstrap Theme by Start Bootstrap</em>
                     </h3>
-                    <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                    <Link
+                        className="btn btn-primary btn-xl js-scroll-trigger"
+                        to="about"
+                        smooth
+                    >
+                        Find Out More
+                    </Link>
                 </div>
                 <div className="overlay" />
             </header>
