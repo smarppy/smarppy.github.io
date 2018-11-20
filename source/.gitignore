@@ -1,0 +1,10 @@
+/node_modules
+
+/dist
+!/dist/.gitkeep
+
+/public/ckeditor
+!/public/ckeditor/.gitkeep
+
+*.log
+.env

@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "@babel/react",
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "ie": "11",
+                    "edge": "17",
+                    "firefox": "28",
+                    "chrome": "32",
+                    "safari": "10.1"
+                },
+                "useBuiltIns": "usage"
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "react-hot-loader/babel"
+            ]
+        }
+    }
+}
