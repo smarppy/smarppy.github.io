@@ -92,7 +92,24 @@ module.exports = merge(common, {
                 ],
             },
             {
+                test: /global\.scss$/,
+                loaders: [
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                        },
+                    }, {
+                        loader: 'sass-loader',
+                    },
+                ],
+            },
+            {
                 test: /\.scss$/,
+                exclude: /global\.scss$/,
                 loaders: [
                     {
                         loader: MiniCssExtractPlugin.loader,
@@ -130,6 +147,9 @@ module.exports = merge(common, {
                     },
                     {
                         loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                        },
                     },
                     {
                         loader: 'less-loader',

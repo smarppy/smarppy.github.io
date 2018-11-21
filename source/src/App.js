@@ -11,6 +11,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import FormContato from './components/FormContato';
 
 const getScroll = () => {
     if (window.pageYOffset) {
@@ -59,6 +60,8 @@ export default class App extends PureComponent {
                 <Services />
 
                 <Portfolio />
+
+                <FormContato />
 
                 <AddressMap />
 

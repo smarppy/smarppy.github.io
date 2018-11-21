@@ -1,16 +1,17 @@
 import React, { PureComponent } from 'react';
 
 import { Element } from 'react-scroll';
+import { Container, Row, Col } from 'reactstrap';
 
 const projects = [
     {
-        title: 'Stationary',
-        description: 'A yellow pencil with envelopes on a clean, blue backdrop!',
+        title: 'GóvFácil Cidadão',
+        description: 'Sistema de intereção entre o poder público e o cidadão.',
         image: require('../drawables/portfolio-1.jpg'),
     },
     {
-        title: 'Ice Cream',
-        description: 'A yellow pencil with envelopes on a clean, blue backdrop!',
+        title: 'GóvFácil Gabinete',
+        description: 'Sistema para tornar a gestão de gabinetes mais eficiente e intuitiva.',
         image: require('../drawables/portfolio-2.jpg'),
     },
     {
@@ -32,16 +33,16 @@ export default class Portfolio extends PureComponent {
     render() {
         return (
             <Element className="content-section" name="portfolio">
-                <div className="container">
+                <Container>
                     <div className="content-section-heading text-center">
-                        <h3 className="text-secondary mb-0">Portfolio</h3>
-                        <h2 className="mb-5">Recent Projects</h2>
+                        <h3 className="text-secondary mb-0">Portfólio</h3>
+                        <h2 className="mb-5">Projetos</h2>
                     </div>
 
-                    <div className="row no-gutters">
+                    <Row className="no-gutters">
 
                         {projects.map(proj => (
-                            <div key={proj.title} className="col-lg-6">
+                            <Col key={proj.title} lg="6">
                                 <a className="portfolio-item">
                                     <span className="caption">
                                         <span className="caption-content">
@@ -51,11 +52,11 @@ export default class Portfolio extends PureComponent {
                                     </span>
                                     <img className="img-fluid" src={proj.image} alt="" />
                                 </a>
-                            </div>
+                            </Col>
                         ))}
 
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </Element>
         );
     }

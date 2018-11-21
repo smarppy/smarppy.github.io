@@ -6,24 +6,24 @@ import { Link } from 'react-scroll';
 
 const navItems = [
     {
-        title: 'Home',
+        title: 'Início',
         to: 'page-top',
     },
     {
-        title: 'About',
+        title: 'Sobre Nós',
         to: 'about',
     },
     {
-        title: 'Services',
+        title: 'Serviços',
         to: 'services',
     },
     {
-        title: 'Portfolio',
+        title: 'Portfólio',
         to: 'portfolio',
     },
     {
-        title: 'Contact',
-        to: 'contact',
+        title: 'Contato',
+        to: 'formContato',
     },
 ];
 
@@ -78,7 +78,7 @@ export default class Navigation extends PureComponent {
                                 to="page-top"
                                 smooth
                             >
-                                Start Bootstrap
+                                Smarppy
                             </Link>
                         </li>
 

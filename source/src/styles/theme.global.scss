@@ -1,0 +1,8 @@
+@import "./colors.scss";
+
+$body-bg: #fafafa;
+$body-color: #111;
+
+$theme-colors: ("primary": $color-smarppy-primary);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

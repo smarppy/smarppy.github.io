@@ -2,30 +2,31 @@ import React, { PureComponent } from 'react';
 
 import { Element } from 'react-scroll';
 import {
-    FaMobileAlt, FaPencilAlt,
-    FaRegHeart, FaQuestion,
+    FaGraduationCap, FaSuitcase,
+    FaMobileAlt, FaLaptopCode,
 } from 'react-icons/fa';
+import { Container, Row, Col } from 'reactstrap';
 
 const services = [
     {
-        title: 'Responsive',
-        description: 'Looks great on any screen size!',
+        title: 'Treinamentos',
+        description: 'Node JS, React, React Native, Git, Docker e outras tecnologias.',
+        icon: <FaGraduationCap />,
+    },
+    {
+        title: 'Consultoria',
+        description: 'Consultoria em análise e desenvolvimento de sistemas.',
+        icon: <FaSuitcase />,
+    },
+    {
+        title: 'Aplicações Móveis',
+        description: 'Desenvolvimento de aplicações móveis para as plataformas Android e iOS.',
         icon: <FaMobileAlt />,
     },
     {
-        title: 'Redesigned',
-        description: 'Looks great on any screen size!',
-        icon: <FaPencilAlt />,
-    },
-    {
-        title: 'Favorited',
-        description: 'Looks great on any screen size!',
-        icon: <FaRegHeart />,
-    },
-    {
-        title: 'Question',
-        description: 'Looks great on any screen size!',
-        icon: <FaQuestion />,
+        title: 'Aplicações Web',
+        description: 'Desenvolvimento de aplicações interativas para a Web.',
+        icon: <FaLaptopCode />,
     },
 ];
 
@@ -39,15 +40,15 @@ export default class Services extends PureComponent {
                 className="content-section bg-primary text-white text-center"
                 name="services"
             >
-                <div className="container">
+                <Container className="services">
                     <div className="content-section-heading">
-                        <h3 className="text-secondary mb-0">Services</h3>
-                        <h2 className="mb-5">What We Offer</h2>
+                        <h3 className="text-secondary mb-0">Serviços</h3>
+                        <h2 className="mb-5">O Que Nós Ofereçemos</h2>
                     </div>
-                    <div className="row">
+                    <Row>
 
                         {services.map(serv => (
-                            <div key={serv.title} className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                            <Col key={serv.title} lg="3" md="6" className="mb-lg-0">
                                 <span className="service-icon rounded-circle mx-auto mb-3">
                                     {serv.icon}
                                 </span>
@@ -55,11 +56,11 @@ export default class Services extends PureComponent {
                                     <strong>{serv.title}</strong>
                                 </h4>
                                 <p className="text-faded mb-0">{serv.description}</p>
-                            </div>
+                            </Col>
                         ))}
 
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </Element>
         );
     }
