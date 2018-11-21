@@ -3,5 +3,5 @@ export default {
     urlTwitter: 'https://twitter.com/smarppy',
     urlGitHub: 'https://github.com/smarppy/',
     urlLinkedin: 'https://www.linkedin.com/company/smarppy/',
-    urlGoogleMaps: 'https://goo.gl/maps/shm5mFoNnrB2',
+    urlGoogleMaps: 'https://goo.gl/maps/DRLsjTQDgYL2',
 };
