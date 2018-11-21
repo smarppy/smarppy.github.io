@@ -14,7 +14,7 @@ const FormContato = () => {
                     <h3 className="text-secondary mb-0">Contato</h3>
                     <h2 className="mb-5">Fale Conosco</h2>
                 </div>
-                <Form action="https://formspree.io/contato@smarppy.com.br" method="POST">
+                <Form action="https://formspree.io/contato@smarppy.com" method="POST">
                     <FormGroup>
                         <Label for="nome">Nome</Label>
                         <Input type="text" name="nome" id="nome" />

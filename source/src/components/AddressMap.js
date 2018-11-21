@@ -1,7 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import { Element } from 'react-scroll';
-
 const address = encodeURI('Rua Siriema, 157, Vila Teixeira, Campo Mourão - PR, 87300-220');
 const mapSrc = `https://maps.google.com/maps?f=q&source=s_q&hl=pt-BR&geocode=&q=${address}`
     + `&aq=0&oq=twitter&sspn=0.128789,0.264187&ie=UTF8&hq=${address}&t=m&z=15&iwloc=A&output=embed`;
@@ -14,7 +12,7 @@ export default class AddressMap extends PureComponent {
 
     render() {
         return (
-            <Element name="contact" className="map">
+            <div className="map">
                 <iframe
                     title="Map"
                     width="100%"
@@ -32,7 +30,7 @@ export default class AddressMap extends PureComponent {
                         <br />
                     </a>
                 </small>
-            </Element>
+            </div>
         );
     }
 
