@@ -14,7 +14,6 @@ const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 module.exports.htmlWebpackPlugin = {
     inject: true,
     template: resolveApp('template/index.html'),
-    title: 'Smarppy - Consultoria e Desenvolvimento de Software',
 };
 
 module.exports.default = {
