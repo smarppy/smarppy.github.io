@@ -1,16 +1,17 @@
 {
-  "main.css": "/main.2f1715bd.chunk.css",
-  "main.js": "/main.a227b5e2.js",
+  "main.css": "/main.defb588b.chunk.css",
+  "main.js": "/main.2f406073.js",
   "runtime~main.js": "/runtime~main.d53d57e4.js",
-  "2.28d9aecb.js": "/2.28d9aecb.js",
+  "2.8dbc7c4d.js": "/2.8dbc7c4d.js",
   "portfolio-3.jpg": "/248dbc9f823e2a9642b0c93de48ded50.jpg",
   "portfolio-4.jpg": "/4cef04226a0aac35bdb628671a3fbc3a.jpg",
+  "capa.png": "/697e9b45415107a044ee28cf21a80c9d.png",
   "stylish-portfolio.global.scss": "/d725c249f3f3d86cd0565b3ab0f0927c.jpg",
   "bundle-loading.gif": "/bundle-loading.gif",
   "portfolio-1.jpg": "/e00d831d3534bbfdd4bb28b27e1bb006.jpg",
   "portfolio-2.jpg": "/e81e9fa9d0a05ba9db3a3f4c2a61d1c4.jpg",
   "favicon.ico": "/favicon.ico",
   "index.html": "/index.html",
-  "precache-manifest.1ae012d5df513e5f49c7d719ff4dde40.js": "/precache-manifest.1ae012d5df513e5f49c7d719ff4dde40.js",
+  "precache-manifest.b74fca92eed5e329067add56954dbf82.js": "/precache-manifest.b74fca92eed5e329067add56954dbf82.js",
   "service-worker.js": "/service-worker.js"
 }
