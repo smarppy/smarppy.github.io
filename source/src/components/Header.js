@@ -13,10 +13,7 @@ export default class Header extends PureComponent {
         return (
             <header className="masthead d-flex">
                 <Container className="text-center my-auto">
-                    {/* <h1 className="mb-1">Smarppy</h1> */}
-
-                    <img src={smarppy} alt="" className="smarppyName" />
-
+                    <img src={smarppy} alt="" className="img-fluid smarppyName" />
                     <h3 className="mb-5">
                         <em>Consultoria e Desenvolvimento de Software</em>
                     </h3>

@@ -24,6 +24,19 @@ const getScroll = () => {
     return [sx, sy];
 };
 
+const hideSplashScreen = () => {
+    const splashScreen = document.getElementById('splash-screen');
+    if (splashScreen) {
+        setTimeout(() => {
+            splashScreen.classList.add('splash-screen-hide');
+            setTimeout(
+                () => splashScreen.parentNode.removeChild(splashScreen),
+                1000,
+            );
+        }, 500);
+    }
+};
+
 export default class App extends PureComponent {
 
     state = {
@@ -33,6 +46,7 @@ export default class App extends PureComponent {
     componentDidMount() {
         this._onScroll();
         document.addEventListener('scroll', this._onScroll);
+        hideSplashScreen();
     }
 
     componentWillUnmount() {
