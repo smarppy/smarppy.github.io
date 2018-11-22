@@ -33,7 +33,7 @@ const hideSplashScreen = () => {
                 () => splashScreen.parentNode.removeChild(splashScreen),
                 1000,
             );
-        }, 500);
+        }, 2000);
     }
 };
 

@@ -260,6 +260,7 @@ h6 {
     overflow: hidden;
     max-width: 530px;
     margin: auto auto 1rem;
+    cursor: pointer;
 }
 
 .portfolio-item .caption {
@@ -396,11 +397,37 @@ a:hover, a:focus, a:active {
     color: #011c41 !important;
 }
 
-.smarppyName {
+.smarppy-name {
     object-fit: contain;
     width: 400px;
     margin-bottom: 5px;
     -webkit-filter: drop-shadow(1px 1px 5px #000);
     filter: drop-shadow(1px 1px 5px #000);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
+}
+
+.imagem-descricao-projeto {
+    object-fit: contain;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.modal-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+}
+
+.badges-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-badge {
+    width: 150px;
 }
