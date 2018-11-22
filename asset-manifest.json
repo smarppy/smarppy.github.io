@@ -1,17 +1,18 @@
 {
-  "main.css": "/main.2f1715bd.chunk.css",
-  "main.js": "/main.a227b5e2.js",
+  "main.css": "/main.7464c894.chunk.css",
+  "main.js": "/main.3649689e.js",
   "runtime~main.js": "/runtime~main.d53d57e4.js",
-  "2.28d9aecb.js": "/2.28d9aecb.js",
+  "2.64f38972.js": "/2.64f38972.js",
   "portfolio-3.jpg": "/248dbc9f823e2a9642b0c93de48ded50.jpg",
   "portfolio-4.jpg": "/4cef04226a0aac35bdb628671a3fbc3a.jpg",
   "stylish-portfolio.global.scss": "/d725c249f3f3d86cd0565b3ab0f0927c.jpg",
+  "smarppy_white_ns.png": "/b009b0bee49e706d473cc9cec30738e4.png",
   "bundle-loading.gif": "/bundle-loading.gif",
   "capa.png": "/capa.png",
   "portfolio-1.jpg": "/e00d831d3534bbfdd4bb28b27e1bb006.jpg",
   "portfolio-2.jpg": "/e81e9fa9d0a05ba9db3a3f4c2a61d1c4.jpg",
   "favicon.ico": "/favicon.ico",
   "index.html": "/index.html",
-  "precache-manifest.3d7cdff7c4c2b801ec72de626387054d.js": "/precache-manifest.3d7cdff7c4c2b801ec72de626387054d.js",
+  "precache-manifest.f3ccd1cc7209504109380d26fb5a6a0d.js": "/precache-manifest.f3ccd1cc7209504109380d26fb5a6a0d.js",
   "service-worker.js": "/service-worker.js"
 }

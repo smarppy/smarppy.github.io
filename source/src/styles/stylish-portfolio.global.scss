@@ -395,3 +395,12 @@ a:hover, a:focus, a:active {
 .text-secondary {
     color: #011c41 !important;
 }
+
+.smarppyName {
+    object-fit: contain;
+    width: 400px;
+    margin-bottom: 5px;
+    -webkit-filter: drop-shadow(1px 1px 5px #000);
+    filter: drop-shadow(1px 1px 5px #000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
+}

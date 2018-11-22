@@ -55,7 +55,7 @@ export default class Services extends PureComponent {
                                 <h4>
                                     <strong>{serv.title}</strong>
                                 </h4>
-                                <p className="text-faded mb-0">{serv.description}</p>
+                                <p className="text-faded mb-sm-3 mb-md-0">{serv.description}</p>
                             </Col>
                         ))}
 
