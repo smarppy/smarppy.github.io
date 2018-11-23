@@ -22,6 +22,10 @@ const navItems = [
         to: 'portfolio',
     },
     {
+        title: 'Treinamentos',
+        to: 'courses',
+    },
+    {
         title: 'Contato',
         to: 'formContato',
     },

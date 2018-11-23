@@ -35,7 +35,7 @@ module.exports.default = {
                 use: ['@svgr/webpack'],
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
+                test: /\.(png|svg|jpg|gif|eot|woff|woff2|ttf)$/,
                 exclude: /\.component\.svg$/,
                 use: ['file-loader'],
             }, {

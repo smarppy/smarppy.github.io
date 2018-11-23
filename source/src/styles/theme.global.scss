@@ -5,4 +5,10 @@ $body-color: #111;
 
 $theme-colors: ("primary": $color-smarppy-primary);
 
+$slick-arrow-color: black;
+$slick-loader-path: "../../node_modules/slick-carousel/slick/";
+$slick-font-path: "../../node_modules/slick-carousel/slick/fonts/";
+
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";

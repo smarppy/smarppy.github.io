@@ -282,7 +282,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
@@ -430,4 +430,38 @@ a:hover, a:focus, a:active {
 
 .play-badge {
     width: 150px;
+}
+
+.slider-item-container {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+    .slider-item-title {
+        color: $color-smarppy-secondary-light;
+        width: 100%;
+    }
+
+    .slider-item-image {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+.slider-item-container:hover {
+    text-decoration: underline $color-smarppy-secondary-light;
+    opacity: 0.8;
+}
+
+@media (max-width: 575px) {
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next {
+        right: 0;
+    }
 }

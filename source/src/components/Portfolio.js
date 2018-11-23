@@ -36,7 +36,7 @@ const BadgeStores = ({ urlGoogle, urlApple }) => (
 
 const projects = [
     {
-        title: 'GóvFácil Cidadão',
+        title: 'GovFácil Cidadão',
         description: 'Sistema Eletrônico do Serviço de Informações ao Cidadão (e-SIC)',
         modal: {
             longDescription: (
@@ -56,7 +56,7 @@ const projects = [
             technologies: 'Node JS, Express, Bookshelf, MySQL, Nginx, SSL, React JS, React Native, Android e iOS',
             image: require('../drawables/govfacilcidadao.jpg'),
         },
-        image: require('../drawables/portfolio-1.jpg'),
+        image: require('../drawables/gov-cidadao-front.jpg'),
     },
     {
         title: 'GovFácil',
@@ -78,7 +78,7 @@ const projects = [
             technologies: 'React Native, Realm DB, PHP (Cake) e PostgreSQL',
             image: require('../drawables/govfacil.jpg'),
         },
-        image: require('../drawables/portfolio-2.jpg'),
+        image: require('../drawables/govfacil-front.jpg'),
     },
     {
         title: 'Pare Azul Operacional',
@@ -97,7 +97,7 @@ const projects = [
             technologies: 'React Native, Realm DB, ALPR, NodeJS (express, sequelize) e MySQL',
             image: require('../drawables/pareazul-operacional.png'),
         },
-        image: require('../drawables/portfolio-3.jpg'),
+        image: require('../drawables/pare-azul-front.jpg'),
     },
     {
         title: 'Lupa Empresas',
@@ -121,7 +121,7 @@ const projects = [
             technologies: 'React-Native, Firebase Cloud Message, Facebook SDK, Google Maps API e Realm DB',
             image: require('../drawables/lupa-empresas.jpg'),
         },
-        image: require('../drawables/portfolio-4.jpg'),
+        image: require('../drawables/lupa-front.jpg'),
     },
     {
         title: 'Lupa',
@@ -145,7 +145,7 @@ const projects = [
             technologies: 'React-Native, Firebase Cloud Message, Facebook SDK, Google Maps API e Realm DB',
             image: require('../drawables/lupa.png'),
         },
-        image: require('../drawables/portfolio-1.jpg'),
+        image: require('../drawables/lupa-front.jpg'),
     },
     {
         title: 'Aquasafe',
@@ -167,7 +167,7 @@ const projects = [
             technologies: 'React-Native, Firebase Cloud Message, Realm DB, NodeJS (express, sequelize) e MySQL',
             image: require('../drawables/aquasafe.png'),
         },
-        image: require('../drawables/portfolio-2.jpg'),
+        image: require('../drawables/aquasafe-front.jpg'),
     },
     {
         title: 'Pare Azul',
@@ -189,7 +189,7 @@ const projects = [
             technologies: 'Java (Android), Swift (iOS), Realm DB, NodeJS (express, sequelize) e MySQL',
             image: require('../drawables/pareazul.jpg'),
         },
-        image: require('../drawables/portfolio-3.jpg'),
+        image: require('../drawables/pare-azul-front.jpg'),
     },
     {
         title: 'SafraMax SM4',
@@ -208,7 +208,7 @@ const projects = [
             technologies: 'Java (Android), Realm DB, Java EE (GlassFish), JSF, JAX-RS, JPA e PostgreSQL',
             image: require('../drawables/saframax-sm4.png'),
         },
-        image: require('../drawables/portfolio-4.jpg'),
+        image: require('../drawables/saframax-front.jpg'),
     },
     {
         title: 'SafraMax Ajuda',
@@ -230,7 +230,7 @@ const projects = [
             technologies: 'Ionic e Apache Cordova',
             image: require('../drawables/saframax-ajuda.jpg'),
         },
-        image: require('../drawables/portfolio-1.jpg'),
+        image: require('../drawables/saframax-verde.jpg'),
     },
     {
         title: 'SafraMax Pedidos',
@@ -248,7 +248,7 @@ const projects = [
             technologies: 'Java (Android) e Realm DB',
             image: require('../drawables/saframax-pedidos.png'),
         },
-        image: require('../drawables/portfolio-2.jpg'),
+        image: require('../drawables/saframax-pedidos-front.jpg'),
     },
 ];
 

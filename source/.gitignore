@@ -1,7 +1,7 @@
-/node_modules
+node_modules
 
-/dist
-!/dist/.gitkeep
+dist
+!dist/.gitkeep
 
 /public/ckeditor
 !/public/ckeditor/.gitkeep

@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import classNames from 'classnames';
 import { FaAngleUp } from 'react-icons/fa';
 import { Link, Element } from 'react-scroll';
+import { MediaProvider } from 'react-screen-size';
 
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
@@ -12,6 +13,8 @@ import About from './components/About';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import FormContato from './components/FormContato';
+import Courses from './components/Courses';
+import { Medias } from './utils/ScreenSizeHelper';
 
 const getScroll = () => {
     if (window.pageYOffset) {
@@ -60,43 +63,53 @@ export default class App extends PureComponent {
         });
     }
 
+    _mediaProviderUpdate = ref => {
+        if (ref) {
+            ref.provider.update();
+        }
+    }
+
     render() {
         const { scrollToTopVisible } = this.state;
         return (
-            <Element name="page-top">
+            <MediaProvider ref={this._mediaProviderUpdate} medias={Medias}>
+                <Element name="page-top">
 
-                <Navigation />
+                    <Navigation />
 
-                <Header />
+                    <Header />
 
-                <About />
+                    <About />
 
-                <Services />
+                    <Services />
 
-                <Portfolio />
+                    <Portfolio />
 
-                <FormContato />
+                    <Courses />
 
-                <AddressMap />
+                    <FormContato />
 
-                <Footer />
+                    <AddressMap />
 
-                <Link
-                    className={classNames([
-                        'scroll-to-top',
-                        'rounded',
-                        'js-scroll-trigger',
-                        {
-                            visible: scrollToTopVisible,
-                        },
-                    ])}
-                    to="page-top"
-                    smooth
-                >
-                    <FaAngleUp />
-                </Link>
+                    <Footer />
 
-            </Element>
+                    <Link
+                        className={classNames([
+                            'scroll-to-top',
+                            'rounded',
+                            'js-scroll-trigger',
+                            {
+                                visible: scrollToTopVisible,
+                            },
+                        ])}
+                        to="page-top"
+                        smooth
+                    >
+                        <FaAngleUp />
+                    </Link>
+
+                </Element>
+            </MediaProvider>
         );
     }
 

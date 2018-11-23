@@ -37,7 +37,7 @@ export default class Services extends PureComponent {
     render() {
         return (
             <Element
-                className="content-section bg-primary text-white text-center"
+                className="content-section bg-primary text-center"
                 name="services"
             >
                 <Container className="services">
