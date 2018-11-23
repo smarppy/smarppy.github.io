@@ -1,6 +1,6 @@
 {
-  "main.css": "/main.e4fd5044.chunk.css",
-  "main.js": "/main.c80a6ae2.js",
+  "main.css": "/main.884680cd.chunk.css",
+  "main.js": "/main.027c50e5.js",
   "runtime~main.js": "/runtime~main.d53d57e4.js",
   "2.027812e6.js": "/2.027812e6.js",
   "pare-azul-front.jpg": "/05399f01c248431b46e3c5e340c8c937.jpg",
@@ -51,6 +51,6 @@
   "images/icons/icon-96x96.png": "/images/icons/icon-96x96.png",
   "index.html": "/index.html",
   "manifest.json": "/manifest.json",
-  "precache-manifest.7966e09f3b965eb23ad00050106b4860.js": "/precache-manifest.7966e09f3b965eb23ad00050106b4860.js",
+  "precache-manifest.c6f95738ff57bc460af9a58aa9a1ea7a.js": "/precache-manifest.c6f95738ff57bc460af9a58aa9a1ea7a.js",
   "service-worker.js": "/service-worker.js"
 }
