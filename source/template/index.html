@@ -3,11 +3,12 @@
 
 <head>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    <base href="/">
 
     <title>Smarppy</title>
     <meta name="description" content="Consultoria e Desenvolvimento de Software" />
@@ -35,11 +36,9 @@
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Smarppy - Aplicações Inteligentes" />
 
-    <meta name="theme-color" content="#f27612">
+    <meta name="theme-color" content="#f27612" />
 
     <link rel="manifest" href="/manifest.json">
-
-    <base href="/">
 
     <style>
         #splash-screen {
@@ -62,7 +61,7 @@
     </style>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-        type="text/css">
+        type="text/css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129645957-1"></script>
@@ -80,15 +79,20 @@
     <noscript>
         Você precisa habilitar o JavaScript em seu navegador para utilizar este site.
     </noscript>
+
+    <script>
+        document.documentElement.setAttribute('data-browser', navigator.userAgent);
+        window.IS_IE = /(Trident\/|MSIE)/.test(navigator.userAgent);
+    </script>
+
     <div id="root"></div>
 
-    <!-- Exibe o "carregando" enquanto o bundle é carregado. -->
     <div id="splash-screen">
         <div style="display: table-cell; vertical-align: middle;">
             <div style="margin: auto auto; text-align: center">
-                <div style="width: 200px; height: 200px; margin: auto;">
-                    <svg version="1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200px" height="200px"
-                        viewBox="100 100 880 880" enable-background="new 0 0 200 200" xml:space="preserve" style="">
+                <div id="loading-bundle-container" style="width: 200px; height: 200px; margin: auto;">
+                    <svg id="loading-bundle-svg" version="1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200px"
+                        height="200px" viewBox="100 100 880 880" enable-background="new 0 0 200 200">
                         <path fill="none" stroke="#f27612" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"
                             d="M515 108.6c-42 3.6-73.7 9.6-106.1 19.9-93.7 30.1-173.5 90.4-228.6 173-40 59.9-63.9 128.7-70.2 201.5-2.8 32.4-2.3 56.7 2 90.8 11.8 94.1 52 177.7 118.4 246.1 69.3 71.4 157.7 115.7 255.5 128 36.1 4.5 58.2 4.9 95 1.5 89.3-8.2 174.7-45.2 243.4-105.4 87.4-76.7 138.1-179.2 146.7-296.5 1.4-19.3.6-55.4-1.6-74.5-10.4-89.5-47-171.5-107-240-12.8-14.6-35.7-36.6-50.5-48.6-64.8-52.3-139.7-83.5-226-93.9-12.8-1.5-60.3-2.8-71-1.9zm70 80.3c38.6 5.1 72.5 15.1 105.6 31.1 39.2 18.8 72.3 42.6 102.4 73.6 56.2 57.9 88.5 125.3 98.6 205.9 2.1 16.9 2.4 58.3.6 75-9.2 82.1-42.2 153.1-97.7 210.4-27.8 28.7-57.7 51-92 68.7-39.5 20.5-73.4 30.8-122.5 37.6-14.7 2-67.1 1.7-83.5-.5-27-3.6-55.4-10.6-80.7-19.8-14.1-5.1-43.9-19.6-58.1-28.3C256 780.6 192.9 674.7 187 556.1c-2.2-43.2 3.4-82.9 17.6-126.4 21.8-66.5 62.3-124.6 116.6-167.4 45-35.5 100.4-60.3 157.8-70.7 11.7-2.1 18.3-2.9 39.5-5 10.4-1 52.7.4 66.5 2.3z"
                             class="IwwOsEzM_0"></path>
@@ -157,10 +161,23 @@
                             }
                         </style>
                     </svg>
+                    <img id="loading-bundle-img" style="max-width: 200px;max-height: 200px;object-fit: contain;display: none;" />
                 </div>
 
             </div>
         </div>
+
+        <script>
+            var container = document.getElementById('loading-bundle-container');
+            var svg = document.getElementById('loading-bundle-svg');
+            var img = document.getElementById('loading-bundle-img');
+
+            if (IS_IE) {
+                svg.style.display = 'none';
+                img.src = '/bundle-loading.gif';
+                img.style.display = 'inline';
+            }
+        </script>
     </div>
 
 </body>

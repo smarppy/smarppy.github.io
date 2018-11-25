@@ -1,9 +1,7 @@
-/* eslint-disable import/first, import/no-extraneous-dependencies  */
+/* eslint-disable import/no-extraneous-dependencies  */
 
-document.documentElement.setAttribute('data-browser', navigator.userAgent);
-window.IS_IE = /(Trident\/|MSIE)/.test(navigator.userAgent);
-
-// require('moment/locale/pt-br');
+require('@babel/polyfill');
+require('moment/locale/pt-br');
 require('./src/styles');
 
 const React = require('react');

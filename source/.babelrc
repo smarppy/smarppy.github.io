@@ -11,7 +11,7 @@
                     "chrome": "32",
                     "safari": "10.1"
                 },
-                "useBuiltIns": "usage"
+                "useBuiltIns": "entry"
             }
         ]
     ],

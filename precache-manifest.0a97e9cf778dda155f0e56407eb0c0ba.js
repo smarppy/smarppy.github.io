@@ -1,9 +1,9 @@
 self.__precacheManifest = [
   {
-    "url": "/c5ea43c438486351df488feac2930181.png"
+    "url": "/5ac47dacef3cc679098d8f5772af5edc.png"
   },
   {
-    "revision": "027c50e5e8449a52eeaf",
+    "revision": "5cbdf5b305e0dde92806",
     "url": "/main.884680cd.chunk.css"
   },
   {
@@ -15,15 +15,15 @@ self.__precacheManifest = [
     "url": "/manifest.json"
   },
   {
-    "url": "/05df0ea76b34489e684aa2df991e4a9c.jpg"
+    "url": "/7a13fe6e9f07f99b4cd7791a22ed1595.jpg"
   },
   {
-    "revision": "f2981a5c5a9166f6bf857560e70394a7",
+    "revision": "566e2acc41921c330645549f5725f6da",
     "url": "/index.html"
   },
   {
-    "revision": "027c50e5e8449a52eeaf",
-    "url": "/main.027c50e5.js"
+    "revision": "5cbdf5b305e0dde92806",
+    "url": "/main.5cbdf5b3.js"
   },
   {
     "url": "/6ca7ad8b32bb4bcc6cf5ed6b6ad33f0f.png"
@@ -89,16 +89,17 @@ self.__precacheManifest = [
     "url": "/a563d6a79788786bc2449c755cf3de35.jpg"
   },
   {
+    "url": "/c5ea43c438486351df488feac2930181.png"
+  },
+  {
     "url": "/895e463315e65637bc7571acc71dc92a.png"
   },
   {
-    "url": "/5ac47dacef3cc679098d8f5772af5edc.png"
+    "revision": "e43e4c47be268b536443f0655666cf4c",
+    "url": "/images/icons/icon-96x96.png"
   },
   {
     "url": "/462a625fb61f49854c61b2298b62d1fb.jpg"
-  },
-  {
-    "url": "/7a13fe6e9f07f99b4cd7791a22ed1595.jpg"
   },
   {
     "url": "/f7dcbac784d35c00ba95c9528019f7ac.png"
@@ -119,8 +120,8 @@ self.__precacheManifest = [
     "url": "/653c54f460eb272c44d70e23da44d11e.jpg"
   },
   {
-    "revision": "4d6e84f8031c78ce32d8a2233b0bf56c",
-    "url": "/images/icons/icon-512x512.png"
+    "revision": "1313179b30fca28d47f4118287db4d8a",
+    "url": "/images/icons/icon-72x72.png"
   },
   {
     "url": "/b515b22b7f89704e6ef567673d4a3805.png"
@@ -132,57 +133,60 @@ self.__precacheManifest = [
     "url": "/57b874b3d7da922af434657f8a6687d0.jpg"
   },
   {
-    "revision": "e43e4c47be268b536443f0655666cf4c",
-    "url": "/images/icons/icon-96x96.png"
+    "revision": "4d6e84f8031c78ce32d8a2233b0bf56c",
+    "url": "/images/icons/icon-512x512.png"
   },
   {
     "url": "/6461b94b7e2dd393e70b486296d330cf.jpg"
-  },
-  {
-    "revision": "bd85ca6a7a400f456231b9143d5f85f5",
-    "url": "/favicon.ico"
-  },
-  {
-    "revision": "04da73fa40d661cebb07cfcd71dc65cf",
-    "url": "/images/icons/icon-128x128.png"
   },
   {
     "revision": "f4afea8a3487e4e5d2f1f15ea9983447",
     "url": "/bundle-loading.svg"
   },
   {
-    "revision": "1e809eedfd24be558e00a441a82c5ba8",
-    "url": "/images/icons/icon-192x192.png"
+    "revision": "c265157d2220d548b0186b256e3e9911",
+    "url": "/bundle-loading.gif"
   },
   {
-    "revision": "04e14bcc5218307867173ef2d55825bf",
-    "url": "/images/icons/icon-152x152.png"
-  },
-  {
-    "revision": "97643a039cda388ef7f210f5033659d9",
-    "url": "/images/icons/icon-144x144.png"
-  },
-  {
-    "revision": "7e6e93b91c1498489c83d9d2b49d8c33",
-    "url": "/images/icons/icon-384x384.png"
-  },
-  {
-    "revision": "1313179b30fca28d47f4118287db4d8a",
-    "url": "/images/icons/icon-72x72.png"
+    "revision": "bd85ca6a7a400f456231b9143d5f85f5",
+    "url": "/favicon.ico"
   },
   {
     "revision": "6fbd7e14da3c08b47b0f9000419ee1f4",
     "url": "/capa.jpg"
   },
   {
-    "revision": "027812e67412903504cc",
-    "url": "/2.027812e6.js"
+    "revision": "04da73fa40d661cebb07cfcd71dc65cf",
+    "url": "/images/icons/icon-128x128.png"
+  },
+  {
+    "revision": "97643a039cda388ef7f210f5033659d9",
+    "url": "/images/icons/icon-144x144.png"
+  },
+  {
+    "revision": "04e14bcc5218307867173ef2d55825bf",
+    "url": "/images/icons/icon-152x152.png"
+  },
+  {
+    "revision": "1e809eedfd24be558e00a441a82c5ba8",
+    "url": "/images/icons/icon-192x192.png"
+  },
+  {
+    "revision": "7e6e93b91c1498489c83d9d2b49d8c33",
+    "url": "/images/icons/icon-384x384.png"
+  },
+  {
+    "revision": "00b27d7e454ce970c221",
+    "url": "/2.00b27d7e.js"
   },
   {
     "url": "/0b31b7b1b693559981560c8199593321.png"
   },
   {
     "url": "/0893aadaef6fc50e080440042ce8e752.png"
+  },
+  {
+    "url": "/05df0ea76b34489e684aa2df991e4a9c.jpg"
   },
   {
     "url": "/05399f01c248431b46e3c5e340c8c937.jpg"

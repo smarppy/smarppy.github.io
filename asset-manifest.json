@@ -1,8 +1,8 @@
 {
   "main.css": "/main.884680cd.chunk.css",
-  "main.js": "/main.027c50e5.js",
+  "main.js": "/main.5cbdf5b3.js",
   "runtime~main.js": "/runtime~main.d53d57e4.js",
-  "2.027812e6.js": "/2.027812e6.js",
+  "2.00b27d7e.js": "/2.00b27d7e.js",
   "pare-azul-front.jpg": "/05399f01c248431b46e3c5e340c8c937.jpg",
   "aquasafe-front.jpg": "/05df0ea76b34489e684aa2df991e4a9c.jpg",
   "utfpr-front.png": "/0893aadaef6fc50e080440042ce8e752.png",
@@ -33,6 +33,7 @@
   "saframax-pedidos.png": "/af21939447e254b80e2c428c0b09e0fc.png",
   "hacken.png": "/b515b22b7f89704e6ef567673d4a3805.png",
   "theme.global.scss": "/f97e3bbf73254b0112091d0192f17aec.svg",
+  "bundle-loading.gif": "/bundle-loading.gif",
   "bundle-loading.svg": "/bundle-loading.svg",
   "lupa.png": "/c5ea43c438486351df488feac2930181.png",
   "capa.jpg": "/capa.jpg",
@@ -51,6 +52,6 @@
   "images/icons/icon-96x96.png": "/images/icons/icon-96x96.png",
   "index.html": "/index.html",
   "manifest.json": "/manifest.json",
-  "precache-manifest.c6f95738ff57bc460af9a58aa9a1ea7a.js": "/precache-manifest.c6f95738ff57bc460af9a58aa9a1ea7a.js",
+  "precache-manifest.0a97e9cf778dda155f0e56407eb0c0ba.js": "/precache-manifest.0a97e9cf778dda155f0e56407eb0c0ba.js",
   "service-worker.js": "/service-worker.js"
 }
