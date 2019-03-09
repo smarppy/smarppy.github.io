@@ -1,7 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies, no-underscore-dangle */
 
-require('dotenv').config();
-
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -51,7 +49,7 @@ module.exports.default = {
         ],
     },
     resolve: {
-        extensions: ['.mjs', '.web.js', '.js', '.web.jsx', '.jsx', '.less', '.json'],
+        extensions: ['.mjs', '.web.js', '.js', '.web.jsx', '.jsx', '.json'],
     },
     optimization: {
         // Automatically split vendor and commons

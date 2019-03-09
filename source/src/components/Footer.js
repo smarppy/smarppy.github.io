@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import moment from 'moment-timezone';
 import { Container } from 'reactstrap';
 
 import {
@@ -46,7 +45,7 @@ export default class Footer extends PureComponent {
                             <SocialLink Icon={FaMap} href={strings.urlGoogleMaps} />
                         </li>
                     </ul>
-                    <p className="text-muted small mb-0">Copyright &copy; Smarppy {moment().year()}</p>
+                    <p className="text-muted small mb-0">Copyright &copy; Smarppy {new Date().getFullYear()}</p>
                 </Container>
             </footer>
         );

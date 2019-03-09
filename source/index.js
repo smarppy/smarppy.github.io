@@ -1,7 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies  */
 
 require('@babel/polyfill');
-require('moment/locale/pt-br');
 require('./src/styles');
 
 const React = require('react');

@@ -140,25 +140,6 @@ module.exports = merge(common, {
                         sourceMap: true,
                     },
                 }],
-            }, {
-                test: /\.less$/,
-                loaders: [{
-                    loader: 'style-loader',
-                    options: {
-                        sourceMap: true,
-                    },
-                }, {
-                    loader: 'css-loader',
-                    options: {
-                        sourceMap: true,
-                    },
-                }, {
-                    loader: 'less-loader',
-                    options: {
-                        sourceMap: true,
-                        javascriptEnabled: true,
-                    },
-                }],
             },
         ],
     },
