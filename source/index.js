@@ -7,11 +7,11 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 
 const App = require('./src/App').default;
-const serviceWorker = require('./serviceWorker');
+// const serviceWorker = require('./serviceWorker');
 
 ReactDOM.render(
     <App />,
     document.getElementById('root'),
 );
 
-serviceWorker.register();
+// serviceWorker.register();
