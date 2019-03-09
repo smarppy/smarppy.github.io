@@ -101,9 +101,14 @@ h6 {
     padding-top: 8rem;
     padding-bottom: 8rem;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../drawables/bg-40.jpg");
-    background-position: center center;
+    background-position-x: center;
+    background-position-y: 10%;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width: 360px) {
+        background-position-y: top;
+    }
 }
 
 .masthead h1 {
@@ -236,22 +241,6 @@ h6 {
     font-size: 2.25rem;
     -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-    padding: 15rem 0;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../drawables/bg-callout.jpg");
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../drawables/bg-callout.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.callout h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 30rem;
 }
 
 .portfolio-item {
