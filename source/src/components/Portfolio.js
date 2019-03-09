@@ -36,6 +36,29 @@ const BadgeStores = ({ urlGoogle, urlApple }) => (
 
 const projects = [
     {
+        title: 'GovFácil Gabinete',
+        description: 'Sistema para Gestão de Gabinetes',
+        modal: {
+            longDescription: (
+                <div>
+                    Sistema para gestão de gabinetes de deputados estaduais
+                    e federais, desenvolvido para Android, iOS e Web.
+                    <BadgeStores
+                        urlGoogle="https://play.google.com/store/apps/details?id=br.com.govfacilgabinete.app"
+                        urlApple="https://itunes.apple.com/br/app/govf%C3%A1cil-gabinete/id1451249339?mt=8"
+                    />
+                </div>
+            ),
+            client: 'GovFácil',
+            urlClient: 'http://www.govfacilgabinete.com.br/',
+            date: '2019',
+            category: 'Mobile, Web',
+            technologies: 'Node JS, Express, Bookshelf, MySQL, Nginx, SSL, React JS, React Native, Android e iOS',
+            image: require('../drawables/govfacilgabinete.jpg'),
+        },
+        image: require('../drawables/gov-gabinete-front.jpg'),
+    },
+    {
         title: 'GovFácil Cidadão',
         description: 'Sistema Eletrônico do Serviço de Informações ao Cidadão (e-SIC)',
         modal: {
