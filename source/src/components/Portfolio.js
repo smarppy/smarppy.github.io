@@ -105,7 +105,7 @@ const projects = [
     },
     {
         title: 'Pare Azul Operacional',
-        description: 'Aplicativo para venda e fiscalização de estacionamento rotaivo em máquinas POS',
+        description: 'Aplicativo para venda e fiscalização de estacionamento rotativo em máquinas POS',
         modal: {
             longDescription: (
                 <div>
@@ -125,7 +125,7 @@ const projects = [
     {
         title: 'Lupa Empresas',
         description: 'Aplicativo que atua como uma ferramenta de marketing'
-            + 'mobile para atingir e fidelizar clientes',
+            + ' mobile para atingir e fidelizar clientes',
         modal: {
             longDescription: (
                 <div>
@@ -154,7 +154,7 @@ const projects = [
             longDescription: (
                 <div>
                     Aplicativo Android e iOS que atua como uma ferramenta de marketing
-                    digital para buscar e seguir empresas locais
+                    digital para buscar e seguir empresas locais.
                     <BadgeStores
                         urlGoogle="https://play.google.com/store/apps/details?id=ninja.lupa.app"
                         urlApple="https://itunes.apple.com/br/app/lupa-ninja/id1262146298"
@@ -194,11 +194,11 @@ const projects = [
     },
     {
         title: 'Pare Azul',
-        description: 'Aplicativo Android e iOS para uso de estacionamento roativo',
+        description: 'Aplicativo Android e iOS para uso de estacionamento rotativo',
         modal: {
             longDescription: (
                 <div>
-                    Aplicativo Android e iOS para uso de estacionamento roativo.
+                    Aplicativo Android e iOS para uso de estacionamento rotativo.
                     <BadgeStores
                         urlGoogle="https://play.google.com/store/apps/details?id=br.com.pareazul.android"
                         urlApple="https://itunes.apple.com/br/app/pare-azul-zona-azul-s%C3%A3o-paulo/id1234032331"
