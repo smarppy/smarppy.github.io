@@ -104,25 +104,6 @@ const projects = [
         image: require('../drawables/govfacil-front.jpg'),
     },
     {
-        title: 'Pare Azul Operacional',
-        description: 'Aplicativo para venda e fiscalização de estacionamento rotativo em máquinas POS',
-        modal: {
-            longDescription: (
-                <div>
-                    Aplicativo Android para venda e fiscalização de
-                    estacionamento rotativo em máquinas POS.
-                </div>
-            ),
-            client: 'Appmoove',
-            urlClient: 'http://www.pareazul.com.br/',
-            date: '2017',
-            category: 'Mobile',
-            technologies: 'React Native, Realm DB, ALPR, NodeJS (express, sequelize) e MySQL',
-            image: require('../drawables/pareazul-operacional.png'),
-        },
-        image: require('../drawables/pare-azul-front.jpg'),
-    },
-    {
         title: 'Lupa Empresas',
         description: 'Aplicativo que atua como uma ferramenta de marketing'
             + ' mobile para atingir e fidelizar clientes',
@@ -191,28 +172,6 @@ const projects = [
             image: require('../drawables/aquasafe.png'),
         },
         image: require('../drawables/aquasafe-front.jpg'),
-    },
-    {
-        title: 'Pare Azul',
-        description: 'Aplicativo Android e iOS para uso de estacionamento rotativo',
-        modal: {
-            longDescription: (
-                <div>
-                    Aplicativo Android e iOS para uso de estacionamento rotativo.
-                    <BadgeStores
-                        urlGoogle="https://play.google.com/store/apps/details?id=br.com.pareazul.android"
-                        urlApple="https://itunes.apple.com/br/app/pare-azul-zona-azul-s%C3%A3o-paulo/id1234032331"
-                    />
-                </div>
-            ),
-            client: 'Appmoove',
-            urlClient: 'http://www.pareazul.com.br/',
-            date: '2016 e 2017',
-            category: 'Mobile',
-            technologies: 'Java (Android), Swift (iOS), Realm DB, NodeJS (express, sequelize) e MySQL',
-            image: require('../drawables/pareazul.jpg'),
-        },
-        image: require('../drawables/pare-azul-front.jpg'),
     },
     {
         title: 'SafraMax SM4',
