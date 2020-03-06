@@ -6,7 +6,7 @@
     "scripts": {
         "start": "cross-env NODE_ENV=development node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.js",
         "build": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-        "postbuild": "rm -f ./../*.* && cp -r ./dist/* ./../",
+        "postbuild": "rm -f ./../*.* && cp -r ./dist/. ./../",
         "lint": "eslint ."
     },
     "dependencies": {

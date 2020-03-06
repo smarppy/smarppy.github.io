@@ -3,6 +3,7 @@
   "main.js": "/main.7feef7b3.js",
   "runtime~main.js": "/runtime~main.d53d57e4.js",
   "2.e0ee1d52.js": "/2.e0ee1d52.js",
+  ".well-known/apple-developer-domain-association.txt": "/.well-known/apple-developer-domain-association.txt",
   "govfacilgabinete.jpg": "/03e09d6e98638e7b10d9011e11fc5dc9.jpg",
   "aquasafe-front.jpg": "/05df0ea76b34489e684aa2df991e4a9c.jpg",
   "utfpr-front.png": "/0893aadaef6fc50e080440042ce8e752.png",
@@ -51,6 +52,6 @@
   "images/icons/icon-96x96.png": "/images/icons/icon-96x96.png",
   "index.html": "/index.html",
   "manifest.json": "/manifest.json",
-  "precache-manifest.28c8899e4a7bd6659e8eb15a55785ec9.js": "/precache-manifest.28c8899e4a7bd6659e8eb15a55785ec9.js",
+  "precache-manifest.a206628cf9eb90d4fed651d245851a6c.js": "/precache-manifest.a206628cf9eb90d4fed651d245851a6c.js",
   "service-worker.js": "/service-worker.js"
 }
